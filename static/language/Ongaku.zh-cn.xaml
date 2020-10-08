@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <!--#region Header Menu-->
+    <system:String x:Key="File">文件</system:String>
+    <system:String x:Key="ImportMediaFile">导入媒体文件</system:String>
+    <system:String x:Key="ImportMediaFolder">导入媒体文件夹</system:String>
+    <system:String x:Key="Exit">退出</system:String>
+
+    <system:String x:Key="Control">控制</system:String>
+    <system:String x:Key="PlayPause">播放/暂停</system:String>
+    <system:String x:Key="Stop">停止</system:String>
+    <system:String x:Key="PreviousTrack">上一首</system:String>
+    <system:String x:Key="NextTrack">下一首</system:String>
+
+    <system:String x:Key="BackUpResume">备份/恢复</system:String>
+    <system:String x:Key="BackUpData">备份数据</system:String>
+    <system:String x:Key="ResumeData">恢复数据</system:String>
+    
+    <system:String x:Key="Help">帮助</system:String>
+    <system:String x:Key="ProductHelp">产品帮助</system:String>
+    <system:String x:Key="About...">关于...</system:String>
+    <!--<system:String x:Key=""></system:String>-->
+    <!--#endregion-->
+    
+    <!--#region Message-->
+    <system:String x:Key="UnknownArtist">未知作者</system:String>
+    <!--#endregion-->
+    
+    <!--About-->
+    <system:String x:Key="AboutCopyright">Copyright © 2020 Kaffu Chino. All Rights Reserved.</system:String>
+    
+</ResourceDictionary>

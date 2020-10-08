@@ -1,0 +1,65 @@
+﻿<Window x:Class="Ongaku.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ongaku"
+        mc:Ignorable="d"
+        Title="About" Height="400" Width="600" ResizeMode="CanMinimize">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="35" GlassFrameThickness="1,0,1,1"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Background="#03A9F4">
+            <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Label Style="{DynamicResource HeaderTitle}" Content="About Ongaku..."/>
+            </WrapPanel>
+            <WrapPanel HorizontalAlignment="Right">
+                <Button Style="{DynamicResource HeaderCloseButton}" Click="CloseWindowEvent">
+                    <Canvas>
+                        <Line X1="-5" Y1="-5" X2="5" Y2="5" Stroke="#FFFFFF"/>
+                        <Line X1="-5" Y1="5" X2="5" Y2="-5" Stroke="#FFFFFF"/>
+                    </Canvas>
+                </Button>
+            </WrapPanel>
+        </Grid>
+        <Grid Grid.Row="1" Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid>
+                    <WrapPanel HorizontalAlignment="Left">
+                        <Viewbox HorizontalAlignment="Center"
+                             VerticalAlignment="Center"
+                             Height="70"
+                             Width="70"
+                             RenderOptions.BitmapScalingMode="HighQuality">
+                            <Path Data="{DynamicResource Icon-Ongaku}" Fill="#03A9F4" Stretch="Uniform"/>
+                        </Viewbox>
+                    </WrapPanel>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Label Content="Ongaku" Margin="10 0 0 0"  HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="40" Foreground="#03A9F4" FontWeight="SemiBold"></Label>
+                    <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10 0 0 0">
+                        <Hyperlink >
+                            <TextBlock Text="{DynamicResource AboutCopyright}"/>
+                        </Hyperlink>
+                    </TextBlock>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1" Background="#F4F5F7">
+                
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

@@ -36,6 +36,8 @@ This is my first WPF project.Some ways may not perfect.
 
 * [SQLite](https://www.sqlite.org/index.html)
 
+* [TagLib#](https://github.com/mono/taglib-sharp)
+
 ## License
 
 Ongaku is licensed under the [GNU General Public License](https://github.com/Kaffu-Chino/Ongaku-Music-Player/blob/master/LICENSE) and only for personal use

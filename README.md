@@ -1,4 +1,4 @@
-![](https://drive.cafu-chino.top/?/images/2020/10/05/ivx7s1Iiuf/Ongaku.png)
+![](./image/Ongaku.png)
 
 # Ongaku - Music Player&amp;Local Music Classifier
 
@@ -6,7 +6,7 @@ A WPF Music Player&amp;Local Music Classifier with Designed UI. This project is 
 
 ## Project Screenshot(In Development)
 
-![](https://drive.cafu-chino.top/?/images/2020/10/05/hsbAZKocur/Main.png)
+![](./image/Main.png)
 
 ## What Ongaku Player has？
 
